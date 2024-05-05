@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("ff.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* contentbox styling */
+.content-box{
+    min-width: 30%;
+    min-height: 30%;
+    border: 2px solid rgb(46, 10, 88);
+    border-radius: 15px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.content-box h2{
+    height: 20%;
+    width: 85%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: rgb(46, 10, 88);
+    color:black;
+    padding-left: 1%;
+    margin-top: 7px;
+}
+.content-box .additems-box{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.content-box .additems-box .inpt{
+    height:95%;
+    width: 70%;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 20px;
+    border: none;
+}
+.content-box .additems-box .btn{
+    height:97%;
+    width: 22%;
+    color: whitesmoke;
+    background-color: rgb(247, 91, 35);
+    font-size: 14px;
+    font-weight: 530;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.content-box .additems-box .btn:hover{
+    cursor: pointer;
+}
+.content-box .items{
+    height: 100%;
+    width: 100%;
+    margin-top: 8px;
+}
+.ullist{
+    height: 100%;
+    width: 100%;
+}
+.ullist li{
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: medium;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button{
+    height: 20px;
+    width: 50px;
+    margin-right: 4px;
+    color: #eb2c06;
+    background-color: #15cb79;
+    border: 1.5px solid black;
+}
+li button:hover{
+    cursor: pointer;
+}
